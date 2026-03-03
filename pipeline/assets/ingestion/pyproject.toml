@@ -1,0 +1,14 @@
+# TODO: Add Python dependencies required by the python ingestion asset.
+# - Keep this intentionally minimal.
+# - Pin versions for reproducibility.
+# Docs: https://getbruin.com/docs/bruin/assets/python
+#
+# Example:
+# pandas==2.2.0
+# requests==2.31.0
+
+[project]
+name = "nyc-taxi-ingestion"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pandas>=3.0.1", "pyarrow>=23.0.1", "requests>=2.32.5"]

@@ -22,6 +22,14 @@ In a Bruin project, what are the required files/directories?
 - `.bruin.yml` and `pipeline/` with `pipeline.yml` and `assets/`
 - `pipeline.yml` and `assets/` only
 
+> **Answer:** All projects need a `.bruin.yml` at root directory, and `pipeline.yml` is needed to define pipelines.
+
+> **NB:** Here I'm experimenting creating my project as follow (from the root of this repo):
+>
+> ```sh
+> bruin init zoomcamp .
+> ```
+
 ---
 
 ### Question 2. Materialization Strategies
